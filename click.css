@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+}
+
+video {
+    display: block;
+}
+
+section {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+    text-align: center;
+}
+
+.camView {
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    margin: 10px;
+    cursor: default;
+}
+
+.camView p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 111, 0, 1);
+    color: #FFF;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 12px;
+    cursor: default;
+}
+
+.highlighter {
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+    cursor: default;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status_bed {
+font-size: 18px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}

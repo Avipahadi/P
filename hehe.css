@@ -1,0 +1,21 @@
+body {
+    background-size: cover;
+}
+
+.button {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+#navbar {
+    font-size: 14px;
+    border-radius: 0px;
+    font-family: 'Dosis', sans-serif;
+}
